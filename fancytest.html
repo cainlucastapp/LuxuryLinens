@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amaranth:400,400italic' rel='stylesheet' type='text/css'>
+    
+    <title>Luxury Linens</title>
+    <meta charset="utf8">
+    <style type="text/css" media="screen">
+    
+      /* Default color for links inside the tabbed box */
+      .ui-widget-content a, .ui-widget-content a:hover, .ui-widget-content a:visited, .ui-widget-content a:active {
+      color: #ffffff !important;
+      background:#e4d2db;
+      text-decoration: underline !important;
+      font-family: 'Amaranth',sans-serif;
+      }
+
+      /* Default styling for selected tab titles */
+      .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+      color: #ffffff !important;
+      background:#b4849e;
+      text-decoration: none !important;
+      cursor: text !important;
+      font-family: 'Amaranth',sans-serif;
+      }
+
+      /* Default styling for unselected tab titles */
+      .ui-state-default a:hover, .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+      color: #ffffff !important;
+      text-decoration: none !important;
+      cursor: text !important;
+      font-family: 'Amaranth',sans-serif;
+      }
+      
+      .ui-widget-header{
+        background:#ffffff !important;
+        border:#ffffff !important;
+      }
+      
+      .ui-widget-content {
+        background:#ffffff !important;
+        border: 0px solid #ffffff !important;
+      }
+      
+      .ui-widget {
+        font-family:Georgia,sans-serif !important;
+        font-size: 1.1em !important;
+      }
+      
+      .ui-tabs .ui-tabs-nav li {
+        border:none !important;
+      }
+      
+      .ui-tabs-panel {
+        padding: 0.5em 2em !important;
+      }
+      
+      .ui-helper-reset {
+        font-size: 100% !important;
+        line-height: 0.5 !important;
+      }
+      
+      .ui-tabs .ui-tabs-nav li a {
+        float: left;
+        padding: 0.5em !important;
+        text-decoration: none;
+        width: 100px;
+      }
+      
+      #tabs{
+        width:650px;
+      }
+      
+      #tabs-1, #tabs-2, #tabs-3, #tabs-4{
+        background:#E3D1DA !important;
+        background-image: -ms-linear-gradient(bottom, #FFFFFF 45%, #E3D1DA 100%) !important; 
+        background-image: -moz-linear-gradient(bottom, #FFFFFF 45%, #E3D1DA 100%) !important;
+        background-image: -o-linear-gradient(bottom, #FFFFFF 45%, #E3D1DA 100%) !important;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #E3D1DA));
+        background-image: -webkit-linear-gradient(bottom, #FFFFFF 45%, #E3D1DA 100%) !important;
+        background-image: linear-gradient(to top, #FFFFFF 45%, #E3D1DA 100%) !important;
+        border: 2px solid #DAD9DA !important;     
+        font-size: 12px;
+        height: 250px;
+        margin-left: 3px;
+        margin-top: 3px !important;
+        color:#b4849e;
+      }
+      
+      #tab-wrapper{
+        width:555px;
+      }
+      
+      
+    
+    </style>
+    
+    <!-- jQuery -->
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+    <script>
+    jQuery(function() {
+    jQuery( "#tabs" ).tabs();
+    });
+    </script>
+ 
+  </head>
+  
+  <body>
+    
+    <div id="tabs">
+    <ul>
+    <!--This section introduces the tabs and titles them-->
+    <li><a href="#tabs-1"> Description</a></li>
+    <li><a href="#tabs-2"> Size & Care</a></li>
+    <li><a href="#tabs-3"> Delivery</a></li>
+    <li><a href="#tabs-4"> More Info</a></li>
+    </ul>
+
+    <!--This section creates the content within each tab-->
+      <div id="tabs-1">
+        <div id="tab-wrapper">
+        <P>This silky soft and light microfiber-hollowfiber duvet is our closest to synthetic equivalent to a natural 
+        down duvet, giving you the warmth you want with a featherweight feel. Dustmite-free, thanks to  the
+        synthetic filling and a mite proof cotton cover the duvet drapes beautifully over your body for a really
+        cost night’s sleep.</P>
+
+        100%  microfiber-hollow-fiber blend<Br>
+        5year guarantee
+        </div>
+      </div>
+      <div id="tabs-2">
+        <div id="tab-wrapper">
+          <P>Insert content for second tab here.</P>
+        </div>
+      </div>
+      <div id="tabs-3">
+        <div id="tab-wrapper">
+          <P>Insert content for second tab here.</P>
+        </div>
+      </div>
+      <div id="tabs-4">
+        <div id="tab-wrapper">
+          <P>Insert content for second tab here.</P>
+        </div>
+      </div>
+    </div>
+
+     
+    
+  </body>
+</html
